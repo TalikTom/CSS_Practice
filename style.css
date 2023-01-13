@@ -95,6 +95,8 @@ select {
     padding: 50px;
     width: 80%;
     margin: 0 auto;
+    padding: 2rem;
+    max-width: 750px;
 
 }
 

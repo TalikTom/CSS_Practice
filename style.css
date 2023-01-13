@@ -124,12 +124,13 @@ select {
 
 .stretch {
     background-color: #1e4360;
-    padding: 3rem;
+    padding: 3rem 0;
 }
 
 .stretch_container {
-    width: 50%;
     margin: 0 auto;
+    width: 50%;
+
 }
 
 .white {

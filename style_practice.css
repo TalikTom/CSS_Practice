@@ -76,8 +76,18 @@ select {
 .first_container {
     width: 100%;
     background-color: indianred;
+
+
 }
 
 .second_container {
     width: 100%;
 }
+
+.first_content,
+.second_content{
+    padding: 3rem 0;
+    width: 80%;
+    margin: 0 auto;
+}
+

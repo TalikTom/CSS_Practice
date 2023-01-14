@@ -1,3 +1,11 @@
+:root {
+    --clr-primary-400: #3b66a4;
+
+    --clr-neutral-100: hsl(232, 12%, 13%);
+    --clr-neutral-900: hsl(0 0% 0%);
+
+    --font-family-primary: ;
+}
 /* Box sizing rules */
 *,
 *::before,

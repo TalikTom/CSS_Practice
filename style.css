@@ -1,5 +1,8 @@
 :root {
-    --clr-primary-400: #3b66a4;
+    --clr-accent-400: hsl(12, 88%, 59%);
+    --clr-accent-100: hsl(13, 100%, 96%);
+
+    --clr-primary-400: hsl(228, 39%, 23%);
 
     --clr-neutral-100: hsl(232, 12%, 13%);
     --clr-neutral-900: hsl(0 0% 0%);
@@ -37,6 +40,8 @@
         --fs-nav: var(--fs-300);
     }
 }
+
+
 /* Box sizing rules */
 *,
 *::before,
@@ -103,6 +108,25 @@ svg{
         scroll-behavior: auto !important;
     }
 }
+
+/* utility classes */
+
+.text-primary-400 {
+    color: var(--clr-primary-400);
+}
+.text-accent-400{
+    color: var(--clr-accent-400);
+}
+.text-accent-100 {
+    color: var(--clr-accent-100);
+}
+.text-neutral-100 {
+    color: var(--clr-neutral-100);
+}
+.text-neutral-900 {
+    color: var(--clr-primary-400);
+}
+
 
 .parent {
     background-color: #23424A;

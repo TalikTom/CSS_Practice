@@ -155,6 +155,18 @@ svg{
     font-size: var(--fs-secondary-heading);
 }
 
+.fs-300 {
+    font-size: var(--fs-300);
+}
+.fs-400 {
+    font-size: var(--fs-400);
+}
+.fs-500 {
+    font-size: var(--fs-500);
+}
+.fs-600 {
+    font-size: var(--fs-600);
+}
 
 .parent {
     background-color: #23424A;
@@ -242,4 +254,40 @@ svg{
 
 .paragraph-container {
     width: 100%;
+}
+
+.banner_container {
+    background-color: #1e4360;
+    color: white;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner_content {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1310px;
+    padding: 4rem 0;
+}
+
+.btn {
+    padding: 0.5rem 2.5rem;
+    background-color: #38CFD9;
+    color: #1e4360;
+    border: none;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.banner_title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    width: 50%;
+}
+
+.banner_content {
+    width: 50%;
 }

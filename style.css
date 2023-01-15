@@ -259,14 +259,12 @@ svg{
 .banner_container {
     background-color: #1e4360;
     color: white;
-    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
 .banner_content {
     width: 80%;
     margin: 0 auto;
-    max-width: 1310px;
     padding: 4rem 0;
 }
 
@@ -283,11 +281,15 @@ svg{
 }
 
 .banner_title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     width: 50%;
+    max-width: 600px;
+    line-height: 1.2;
 }
 
-.banner_content {
-    width: 50%;
+.banner_text {
+    width: 50%;,
+    max-width: 600px;
+    color: #e5e5e5;
 }

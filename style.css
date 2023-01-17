@@ -76,6 +76,7 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    font-family: 'Lato', sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
@@ -266,6 +267,8 @@ svg{
     width: 80%;
     margin: 0 auto;
     padding: 4rem 0;
+    max-width: 1100px;
+
 }
 
 .btn {
@@ -278,11 +281,12 @@ svg{
     margin-top: 2rem;
     font-weight: bold;
     font-size: 16px;
+    display: inline-block;
 }
 
 .banner_text {
     width: 50%;
-    max-width: 600px;
+
 }
 
 .banner_title {

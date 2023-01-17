@@ -257,13 +257,13 @@ svg{
     width: 100%;
 }
 
-.banner_container {
+.banner{
     background-color: #1e4360;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
 
-.banner_content {
+.container {
     width: 80%;
     margin: 0 auto;
     padding: 4rem 0;
@@ -284,17 +284,23 @@ svg{
     display: inline-block;
 }
 
-.banner_text {
+.btn:hover,
+.btn:focus {
+    opacity: .75;
+}
+
+
+.banner__text {
     width: 50%;
 
 }
 
-.banner_title {
+.banner__title {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
 
-.banner_paragraph {
+.banner__paragraph {
         color: #e5e5e5;
 }

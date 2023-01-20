@@ -229,7 +229,7 @@ svg{
 
 }
 
-.white {
+.white2 {
     padding: 3rem 0;
     margin: 0 auto;
     width: 50%;
@@ -322,4 +322,18 @@ svg{
 
 .secondary-color {
     background-color: #1c676b;
+}
+
+.small_title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.two-col {
+    color: white;
+    background-color: #1c676b;
+    text-align: center;
+}
+.three-col__title {
+    color: purple;
 }

@@ -360,6 +360,7 @@ svg {
 
 
 .two-col__title {
+    color: #1c676b;
     font-size: 2rem;
     margin-bottom: 1rem;
 
@@ -367,6 +368,7 @@ svg {
 }
 
 .three-col {
+    color: white;
     padding: 3rem 0;
     background-color: #1c676b;
     width: 30%;
@@ -378,7 +380,7 @@ svg {
 }
 
 .three-col__title {
-    color: purple;
+
     margin-bottom: 1rem;
     font-size: 2rem;
 }

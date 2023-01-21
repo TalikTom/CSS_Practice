@@ -374,6 +374,7 @@ svg {
 
 .main-con {
     display: flex;
+    justify-content: space-between;
 }
 
 .three-col__title {

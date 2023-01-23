@@ -331,11 +331,7 @@ svg {
     background-color: #38CFD9;
 }
 
-.btn-small {
-    padding: 0.3rem 1.5rem;
-    background-color: #FFF;
 
-}
 
 .btn:hover,
 .btn:focus {
@@ -414,5 +410,21 @@ header {
     gap: 1rem;
     list-style: none;
     align-items: center;
+    font-size: .9rem;
+
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #fff;
     text-transform: uppercase;
 }
+
+.btn-small {
+    background: #fff;
+    color: #136c72;
+    padding: 0.25em 1em;
+    border-radius: 10em;
+
+}
+
